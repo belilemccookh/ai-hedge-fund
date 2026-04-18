@@ -29,6 +29,8 @@ This system employs several agents working together:
 Note: the system does not actually make any trades.
 
 > **Personal note:** I'm using this fork primarily to study how the value-investing agents (Graham, Munger, Buffett) weigh fundamentals against each other. If you're here for the same reason, start with `src/agents/` and trace how each agent builds its signal.
+>
+> My focus agents (in order of study priority): **Graham → Munger → Buffett → Damodaran**. I've added inline comments in each of their source files to help trace the reasoning logic.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -45,10 +47,4 @@ This project is for **educational and research purposes only**.
 By using this software, you agree to use it solely for learning purposes.
 
 ## Table of Contents
-- [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#licens
+- [How 
