@@ -104,8 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required for stock analysis)
+# For getting financial data (required for stock price and fundamentals)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
 
-> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` first is the most important step — without it most agents return empty data and the results are confusing.
+> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` early saves a lot of headaches — several agents silently fail without it.
